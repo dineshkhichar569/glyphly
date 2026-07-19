@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*! Design tokens */
+@theme {
+  --color-ink: #07070a;
+  --color-surface: #101018;
+  --color-edge: #232334;
+  --color-accent: #7c5cff;
+  --color-muted: #8b8ba7;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: white;
+}
