@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 
-import connnectDB from "./src/config/mongoose-connection.js";
+import connnectDB from "./src/config/mongoose-conection.js";
 import errorHandler from "./src/middlewares/errorHandler.middleware.js";
 
 //////////////// //!  Routes  ///////////////////
